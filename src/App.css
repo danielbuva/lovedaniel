@@ -4,8 +4,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 105%;
-  height: 100vh;
-  background-color: #fff1ea; 
+  max-height: 100vh;
+  background-color: #fff1ea;
 }
 .App-headerDark {
   display: flex;
@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   width: 105%;
   height: 100vh;
-  background-color: #554555; 
+  background-color: #554555;
 }
 .me {
   margin-top: 20px;
@@ -47,7 +47,7 @@
   font-size: 40px;
   letter-spacing: 20px;
 }
-.messageDark{
+.messageDark {
   text-align: center;
   color: #ff7d9d;
   margin-top: 30px;
@@ -64,7 +64,7 @@
   color: #9932cc;
   transition: 0.2s ease-in-out;
 }
-.now{
+.now {
   text-align: center;
   color: #554555;
   margin-bottom: 0;
@@ -72,7 +72,7 @@
   font-family: sans-serif;
   font-size: 12px;
 }
-.nowDark{
+.nowDark {
   text-align: center;
   color: #ff7d9d;
   margin-bottom: 0;
@@ -85,17 +85,17 @@
   font-size: 140px;
   transition: 10s ease-out;
 }
-.now:hover{
+.now:hover {
   color: #ff7d9d;
-  transition: 1.5s ease-in-out; 
+  transition: 1.5s ease-in-out;
 }
 .nowDark:hover {
   font-size: 140px;
   transition: 10s ease-out;
 }
-.nowDark:hover{
+.nowDark:hover {
   color: #9932cc;
-  transition: 1.5s ease-in-out; 
+  transition: 1.5s ease-in-out;
 }
 .sign {
   text-align: center;
@@ -130,7 +130,7 @@
   background-color: white;
   font-size: 20px;
   text-align: center;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
 .textAreaDark {
   color: #ffd9ff;
@@ -145,7 +145,7 @@
   background-color: #a3947b;
   font-size: 20px;
   text-align: center;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
 .heartButton {
   color: #470046;
@@ -173,29 +173,29 @@
   background-color: #470046;
   font-size: 20px;
 }
-.heartButton:hover{
+.heartButton:hover {
   color: #ff7d9d;
   background-color: #ffd1ff;
   border: #d8cbd8 solid 0.5px;
   transition: 0.2s ease-in-out;
-box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
+  box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
 }
-.heartButtonDark:hover{
+.heartButtonDark:hover {
   color: #ff7d9d;
   background-color: #71006e;
   border: #d8cbd8 solid 0.5px;
   transition: 0.2s ease-in-out;
-box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
+  box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
 }
-.heartButton:active{
+.heartButton:active {
   background-color: #554555;
   transition: 0.1s ease-in-out;
 }
-.heartButtonDark:active{
+.heartButtonDark:active {
   background-color: #ffd1ff;
   transition: 0.1s ease-in-out;
 }
-.connectWallet{
+.connectWallet {
   color: #554555;
   cursor: pointer;
   margin-top: -86px;
@@ -209,7 +209,7 @@ box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
   background-color: #ffda62;
   font-size: 20px;
 }
-.connectWalletDark{
+.connectWalletDark {
   color: #e2d8e2;
   cursor: pointer;
   margin-top: -86px;
@@ -223,25 +223,25 @@ box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
   background-color: #00259d;
   font-size: 20px;
 }
-.connectWallet:hover{
+.connectWallet:hover {
   color: #2d212d;
   background-color: #ffc91b;
   border: #ffc9ff solid 0.5px;
   transition: 0.2s ease-in-out;
   box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
 }
-.connectWalletDark:hover{
+.connectWalletDark:hover {
   color: #e6d4e6;
   background-color: #1616ca;
   border: #5d3e5d solid 0.5px;
   transition: 0.2s ease-in-out;
   box-shadow: 0.3px -1px #554555, 0.3px 1px #554555;
 }
-.connectWallet:active{
+.connectWallet:active {
   background-color: #554555;
   transition: 0.1s ease-in-out;
 }
-.connectWalletDark:active{
+.connectWalletDark:active {
   background-color: #ffd9ff;
   transition: 0.1s ease-in-out;
 }
@@ -284,7 +284,7 @@ span {
   font-size: 24px;
   font-weight: 600;
 }
-.userContainer{
+.userContainer {
   background-color: #ffd1ff;
   display: flex;
   flex-direction: column;
@@ -297,7 +297,7 @@ span {
   overflow-wrap: wrap;
   white-space: initial;
 }
-.userContainerDark{
+.userContainerDark {
   background-color: #470046;
   display: flex;
   flex-direction: column;
@@ -310,9 +310,9 @@ span {
   overflow-wrap: wrap;
   white-space: initial;
 }
-.comments{
+.comments {
   background-color: #ffd1ff;
-  padding-top:16px;
+  padding-top: 16px;
   border-radius: 11px;
   display: flex;
   flex-wrap: wrap;
@@ -322,12 +322,12 @@ span {
   white-space: initial;
   margin-right: 16px;
   font-weight: 700;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
-.commentsDark{
+.commentsDark {
   background-color: #470046;
   color: #ffd9ff;
-  padding-top:16px;
+  padding-top: 16px;
   border-radius: 11px;
   display: flex;
   flex-wrap: wrap;
@@ -337,9 +337,9 @@ span {
   white-space: initial;
   margin-right: 16px;
   font-weight: 700;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
-.address{
+.address {
   background-color: #ffd1ff;
   border-radius: 11px;
   display: flex;
@@ -350,9 +350,9 @@ span {
   white-space: initial;
   margin-right: 16px;
   font-weight: 500;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
-.addressDark{
+.addressDark {
   background-color: #470046;
   color: #ffd9ff;
   border-radius: 11px;
@@ -364,11 +364,11 @@ span {
   white-space: initial;
   margin-right: 16px;
   font-weight: 500;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
-.time{
+.time {
   background-color: #ffd1ff;
-  padding-top:16px;
+  padding-top: 16px;
   border-radius: 11px;
   display: flex;
   flex-wrap: wrap;
@@ -378,12 +378,12 @@ span {
   white-space: initial;
   margin-right: 16px;
   font-weight: 500;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
-.timeDark{
+.timeDark {
   background-color: #470046;
   color: #ffd9ff;
-  padding-top:16px;
+  padding-top: 16px;
   border-radius: 11px;
   display: flex;
   flex-wrap: wrap;
@@ -393,7 +393,7 @@ span {
   white-space: initial;
   margin-right: 16px;
   font-weight: 500;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
 /* Hide default HTML checkbox */
 .switch input {
@@ -410,8 +410,8 @@ span {
   right: 0px;
   bottom: 10px;
   background-color: #554555;
-  -webkit-transition: .4s;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.4s;
+  transition: 0.2s ease-in-out;
   border-radius: 36px;
   color: #ffd1ff;
 }
@@ -421,7 +421,7 @@ span {
   right: 0px;
   left: 295px;
   bottom: 12px;
-  -webkit-transition: .4s;
+  -webkit-transition: 0.4s;
   transition: 0.2s ease-in-out;
   border-radius: 50%;
 }
