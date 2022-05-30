@@ -4,7 +4,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 105%;
-  max-height: 100vh;
+  height: 100vh;
   background-color: #fff1ea;
 }
 .App-headerDark {
